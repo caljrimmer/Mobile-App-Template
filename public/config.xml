@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.connectid.app"
+        version   = "0.0.1">
+
+    <name>Hellas Direct</name>
+
+    <description>
+        Hellas Direct Road Assistance App
+    </description>
+
+	<author href="http://www.hellasdirect.gr" email="support@hellasdirect.gr">
+        Hellas Direct Dev Team
+    </author>
+
+    <!-- Define app icon for each platform. -->
+    <icon src="icon.png" />
+
+    <!-- Define app splash screen for each platform. -->
+	<gap:splash src="splash.png" />   
+	                     
+	<!--Access all external resources-->
+	<access origin="*" />
+
+</widget>

@@ -1,0 +1,49 @@
+<p class="no-connection">
+	<%= lang.noConnectionTx %>
+</p>
+<div id="map"></div>
+
+<div id="initialRequest">
+	
+	<div class="text-block-highlight request clearfix">
+	
+		<input type="hidden" name="type" id="type" value="<%= type %>">
+	
+		<ul>
+			<li><b><%= lang.nameTx %></b><br/>
+				<%= details.contactName%>
+				<a class="secondary-but" href="#details">Edit</a>
+			</li>
+			<li><b><%= lang.mobileTx %></b><br/>
+				<%= details.phoneNumber%>
+				<a class="secondary-but" href="#details">Edit</a> 
+			</li>
+			<li><b><%= lang.policyTx %></b><br/>
+				<%= details.policyNumber%>
+				<a class="secondary-but" href="#details">Edit</a> 
+			</li>
+			<li><b><%= lang.regTx %></b><br/>
+				<%= details.vehicleRegistration%>
+				<a class="secondary-but" href="#details">Edit</a> 
+			</li>
+			<li><b><%= lang.locationTx %></b><br/>
+				<%= lang.latTx %> : <span class="lat">0</span>, <%= lang.longTx %> : <span class="long">0</span>
+			</li>
+		</ul> 
+	 
+	</div>
+	  
+</div>
+
+<div id="successfulRequest">
+	<div class="success-container">
+		<h1><%= lang.successHeaderTx %></h1>
+		<p><%= lang.successBodyTx %></p>
+	</div>
+</div> 
+
+<div class="button-area">
+	<a id="request" class="primary-but" href="#"><%= lang.requestButTx %> ></a>
+	<a class="secondary-but" href="#assistance">< Back</a> 
+</div>
+

@@ -1,0 +1,55 @@
+body {
+    margin: 20px 0 50px 0;
+    text-align: center;
+}
+
+.email-content {
+    max-width: 550px;
+    margin: 25px auto;
+    padding: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #2b3845;
+    border: 1px solid #cdd2d8;
+    background: #fff;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+h1 a,
+h1 a:hover,
+h1 a:visited {
+    color: #8fb73d;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+.invite p {
+    font-size: 18px;
+}
+
+.cta {
+    margin: 10px 0;
+    padding: 25px 0 10px 0;
+}
+
+.primary-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.invite .primary-button {
+    padding-left: 90px;
+    padding-right: 90px;
+}

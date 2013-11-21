@@ -1,0 +1,36 @@
+<div class="text-block clearfix">
+	
+	<form class="policy clearfix">
+		
+		<fieldset>
+			<label><%= lang.policyNumberTx%></label>
+			<input type="text" name="policy" id="policy" data-val="name" data-san="policyNumber" placeholder="<%= lang.policyPlaceholderNumberTx%>" value="<%= details.policyNumber%>" />
+			<span class="success-span afterService" <%if (details.policyNumber){%>style="display:block"<%}%>>Done</span>
+		</fieldset>
+		
+		<fieldset>
+			<label><%= lang.policyRegTx%></label>
+			<input type="text" name="reg" id="reg" data-val="reg" data-san="carRegistration" placeholder="<%= lang.policyPlaceholderRegTx%>" value="<%= details.vehicleRegistration%>" />
+			<span class="success-span afterService" <%if (details.vehicleRegistration){%>style="display:block"<%}%>>Done</span>
+		</fieldset>
+		
+		<fieldset>
+			<label><%= lang.policyNameTx%></label>
+			<input type="text" name="name" id="name" data-val="name" data-san="personName" placeholder="<%= lang.policyPlaceholderNameTx%>" value="<%= details.contactName%>" />
+			<span class="success-span" <%if (details.contactName){%>style="display:block"<%}%>>Done</span>
+		</fieldset>
+		
+		<fieldset>
+			<label><%= lang.policyMobileTx%></label>
+			<input type="text" name="mobile" id="mobile" data-val="mobile" data-san="integer" placeholder="<%= lang.policyPlaceholderMobileTx%>" value="<%= details.phoneNumber%>" />
+			<span class="success-span" <%if (details.phoneNumber){%>style="display:block"<%}%>>Done</span>
+		</fieldset>
+		     
+	</form> 
+	
+	<div class="button-area">
+		<a class="primary-but" id="getDetails" href="#"><%= lang.getTx%> ></a>  
+		<a class="secondary-but" href="#home">< Back</a>
+	</div>
+	 
+</div>

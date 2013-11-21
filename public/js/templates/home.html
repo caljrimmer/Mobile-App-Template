@@ -1,0 +1,25 @@
+<div class="ie-warning">
+	<%= lang.ieWarningTx %>
+</div>
+
+<div class="text-block clearfix">
+	<div class="intro-logo"></div>
+	<p><%= lang.introTx %></p>
+</div>
+
+<div class="button-area">
+	<a href="#details" class="primary-but"><%= lang.primaryTx %> ></a>
+</div>
+
+<%if(online){%>
+<a href="#" class="pending">
+	<%= lang.findingTx %>
+</a>
+<a href="#location" class="found">
+	<%= lang.foundTx %>
+</a>
+<%}else{%>
+	<a href="#location" class="pending">
+		<%= lang.notOnlineTx %>
+	</a>	
+<%}%>
